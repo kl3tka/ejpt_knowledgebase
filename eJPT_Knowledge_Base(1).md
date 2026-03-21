@@ -1,5 +1,5 @@
 # eJPT Knowledge Base
-> Compiled from personal lab notes — Exploitation & Post-Exploitation
+> Compiled from personal lab notes 
 
 ---
 
