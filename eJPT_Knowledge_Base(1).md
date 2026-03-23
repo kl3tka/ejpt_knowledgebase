@@ -1564,7 +1564,6 @@ nc -nvlp <port>
 
 ---
 
-*Good luck on the eJPT! Remember: enumerate thoroughly before exploiting, always check services and versions, and document flags as you go.*
 
 ---
 
@@ -1919,9 +1918,9 @@ find / -iname "*flag*" 2>/dev/null
 
 ## 15. eJPT Exam Info
 
-### Exam Structure (from dev-angelist/eJPTv2-Notes)
+### Exam Structure 
 - **Duration:** 48 hours (lab on)
-- **Questions:** 35 (multiple choice + flag submission)
+- **Questions:** 45 (multiple choice + flag submission)
 - **Format:** Black-box pentest simulation, in-browser lab (no VPN needed)
 - **Open book:** Yes. Dynamic flags randomly injected per session.
 - **Pass requirement:** At least **70% overall** + minimum per domain:
@@ -2004,5 +2003,3 @@ find / -iname "*flag*" 2>/dev/null
 | LinEnum | [rebootuser/LinEnum](https://github.com/rebootuser/LinEnum) | Linux automated local enum |
 
 ---
-
-*Good luck on the eJPT! Remember: enumerate thoroughly before exploiting, always check services and versions, and document flags as you go.*
