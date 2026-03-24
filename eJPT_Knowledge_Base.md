@@ -19,7 +19,7 @@
 13. [Quick Reference — CVEs & Ports](#13-quick-reference--common-cves--exploits)
 14. [Web Application Pentesting](#14-web-application-pentesting)
 15. [eJPT Exam Info](#15-ejpt-exam-info)
-16. [Study Resources & Practice Labs](#16-study-resources--practice-labs)
+16. [Practice Labs](#16-study-resources--practice-labs)
 
 ---
 
