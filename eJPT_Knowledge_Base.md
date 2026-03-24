@@ -1905,7 +1905,7 @@ shell.pHp    shell.PHP
 
 ---
 
-### Post-Exploitation — Finding Flags on Web Server
+### Post-Exploitation — Finding Flags
 
 ```bash
 find / -iname "*flag*" 2>/dev/null
@@ -1925,12 +1925,6 @@ find / -iname "*flag*" 2>/dev/null
 - **Open book:** Yes. Dynamic flags randomly injected per session.
 - **Pass requirement:** At least **70% overall** + minimum per domain:
 
-| Domain | Weight | Min Score |
-|---|---|---|
-| Assessment Methodologies | 25% | 90% |
-| Host & Network Auditing | 25% | 80% |
-| Host & Network Pen Testing | 35% | 70% |
-| Web Application Pen Testing | 15% | 60% |
 
 ### Exam Objectives by Domain
 
@@ -1962,38 +1956,12 @@ find / -iname "*flag*" 2>/dev/null
 - Locate hidden files and directories
 - Identify web vulnerabilities
 
-
-## 16. Study Resources & Practice Labs
-
-### Community eJPT Notes (GitHub)
-| Repo | Stars | Notes |
-|---|---|---|
-| [dev-angelist/eJPTv2-Notes](https://github.com/dev-angelist/eJPTv2-Notes) | 330+ | Most complete, includes cheat sheet |
-| [edoardottt/eJPT-notes](https://github.com/edoardottt/eJPT-notes) | 156+ | Passed 19/20, very clean cheatsheet |
-| [PakCyberbot/eJPTv2-Notes](https://github.com/PakCyberbot/eJPTv2-Notes) | — | Comprehensive v2 notes |
-| [neilmadhava/EJPTv2-Notes](https://github.com/neilmadhava/EJPTv2-Notes) | — | eJPTv2 study notes |
-| [4nt11/eJPT-Notes](https://github.com/4nt11/eJPT-Notes) | — | Personal course notes |
-| [xalgord/ejPTv2-Preparation](https://github.com/xalgord/ejPTv2-Preparation) | — | Preparation guide |
-| [Dragkob/eJPT](https://github.com/Dragkob/eJPT) | — | Notes & cheatsheet |
-| [shellkraft/eJPT-Notes](https://github.com/shellkraft/eJPT-Notes/tree/main) | — | eJPT notes |
-
-### Cheatsheets & Reviews
-| Link | What it covers |
-|---|---|
-| [sezioss-gitbook eJPTv2 Cheatsheet](https://sezioss-gitbook.gitbook.io/ejptv2cheatsheet/) | Full cheatsheet per domain |
-| [nmmorette eJPTv2 Cheatsheet](https://nmmorette.github.io/posts/2023/12/ejptv2-cheat-sheet/) | Clean cheatsheet by exam passer |
-| [nmmorette Exam Review](https://nmmorette.github.io/posts/2023/12/review-ejptv2-junior-penetration-tester/) | Tips, labs, domain breakdown |
-| [Mastering eJPTv2 — InfoSec Writeups](https://infosecwriteups.com/mastering-the-ejptv2-exam-ec38daec16bc) | Detailed walkthrough |
-| [How to pass first time — Medium](https://medium.com/@polygonben/ejpt-a-guide-on-how-to-pass-first-time-f8cec3f79a73) | Pass guide |
-| [killswitchx7 Exam Review](https://blog.killswitchx7.com/my-ejptv2-0-exam-review) | Exam experience |
+## 16.  & Practice Labs
 
 ### Recommended Practice Machines (TryHackMe)
 - Basic Pentesting, Ice, Brooklyn Nine Nine, Anonymous
 - Easy Peasy, GoldenEye, HA Joker CTF, Source
 - Poster, WordPress CVE-2021-29447, Blog, RootMe
-
-### Hack The Box — Practice
-- Machine IDs: 1, 2, 3, 114, 146, 344
 
 ### PrivEsc Tools
 | Tool | Link | Use |
